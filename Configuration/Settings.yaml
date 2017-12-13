@@ -1,0 +1,3 @@
+PunktDe:
+  SentryAddin:
+    environment: '%env:SENTRY_ENVIRONMENT%'

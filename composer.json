@@ -1,0 +1,19 @@
+{
+    "description": "This is a Neos extension that adds several variables to Sentry error reports sent by networkteam/Networkteam.SentryClient.",
+    "type": "neos-package",
+    "name": "punktde/sentryaddin",
+    "require": {
+        "neos/flow": "*",
+        "networkteam/sentryclient": "~4.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "PunktDe\\SentryAddin\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "PunktDe.SentryAddin"
+        }
+    }
+}
